@@ -1,4 +1,4 @@
-/**
+﻿/**
 *
 *
 *	ScaleBitmap
@@ -8,7 +8,6 @@
 *	@version	1.1
 *
 */
-
 package org.bytearray.display
 {
 	import flash.display.BitmapData;

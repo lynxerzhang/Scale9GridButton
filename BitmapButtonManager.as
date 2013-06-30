@@ -1,32 +1,16 @@
-package {
+﻿package {
 import flash.display.BitmapData;
 import flash.display.DisplayObject;
 import flash.display.SimpleButton;
 import flash.display.Sprite;
 import flash.errors.IllegalOperationError;
 import flash.geom.Rectangle;
-import flash.utils.Dictionary;
 import org.bytearray.display.ScaleBitmap;
 
 /**
  * BitmapButtonManager generate a bitmapScale9 button
  *  
- *  used byteArray.org's ScaleBitmap class
- *  
- *  @example
- *  import flash.geom.Rectangle;
- *	import flash.display.SimpleButton;
- *   
- * 	_mc.gotoAndStop(1); // the _mc is a movieclip, it has four state(up, over, down hittest)
- *	var upData:BitmapData = new BitmapData(_mc.width, _mc.height, true, 0);
- * 	upData.draw(_mc);
- *
- *	_mc.gotoAndStop(2); //go to second state (overState)
- *	var overData:BitmapData = new BitmapData(_mc.width, _mc.height, true, 0);
- *	overData.draw(_mc);
- *
- *	var s:SimpleButton = BitmapButtonManager.generateButton([upData], 300, 100, new Rectangle(4, 4, 94, 28));
- *	addChild(s); //create the button and add to stage
+ * used byteArray.org's ScaleBitmap class
  *  
  */
 public class BitmapButtonManager {
