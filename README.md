@@ -1,7 +1,7 @@
 Scale9GridButton
 =================
 
-	**use 'org.bytearray.display.ScaleBitmap' to create 9slice displayobject, e.g: 'a 9slice simpleButton'**
+**use 'org.bytearray.display.ScaleBitmap' to create 9slice displayobject, e.g: 'a 9slice simpleButton'**
 
 #Example
 
@@ -15,7 +15,8 @@ Scale9GridButton
 	upState.draw(_mc, null, _mc.transform.colorTransform); //draw the upState
 	downState.draw(_mc, null, _mc2.transform.colorTransform); //draw the overState
 
-	var b:SimpleButton = BitmapButtonManager.generateButton([upState, downState], 100, 60, new Rectangle(23, 24, 47, 47));
+	var b:SimpleButton = BitmapButtonManager.generateButton([upState, downState], 
+								100, 60, new Rectangle(23, 24, 47, 47));
 	addChild(b);
 	b.addEventListener(MouseEvent.CLICK, function(evt:MouseEvent):void{
 		trace("click");
